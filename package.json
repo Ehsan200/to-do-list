@@ -1,0 +1,24 @@
+{
+  "name": "todoList2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.13.9",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.9.0",
+    "css-loader": "^5.1.0",
+    "path": "^0.12.7",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0",
+    "@babel/cli": "^7.12.17",
+    "@babel/core": "^7.12.17"
+  },
+  "scripts": {
+    "build": "webpack --watch --mode development"
+  }
+}
+
